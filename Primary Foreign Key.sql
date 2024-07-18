@@ -1,0 +1,19 @@
+CREATE DATABASE PKFK;
+USE PKFK;
+
+CREATE TABLE temp1(
+id INT,
+name VARCHAR(50),
+age INT,
+city VARCHAR(20),
+PRIMARY KEY(id)
+);
+INSERT INTO temp1 VALUES (101, "Xunu",24,"DHAKA");
+INSERT INTO temp1
+(id, name,age,city)
+VALUES
+(104, "Xunu",23,"DHAKA"),
+(102, "DALA",45,"DHAKA"),
+(103, "KALA",55,"DHAKA");
+
+SELECT * FROM temp1;
