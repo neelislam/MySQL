@@ -1,0 +1,8 @@
+CREATE TABLE emp(
+id INT,
+salary INT DEFAULT 25000);
+
+INSERT INTO emp(id) VALUES (101);
+INSERT INTO emp(id) VALUES (102);
+
+SELECT * FROM emp;
